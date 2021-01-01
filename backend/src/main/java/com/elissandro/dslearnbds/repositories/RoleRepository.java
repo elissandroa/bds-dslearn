@@ -1,9 +1,11 @@
 package com.elissandro.dslearnbds.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import com.elissandro.dslearnbds.entities.Role;
 
-public interface RouleRepository extends JpaRepository<Role, Long>{
+@Repository
+public interface RoleRepository extends JpaRepository<Role, Long>{
 
 }
