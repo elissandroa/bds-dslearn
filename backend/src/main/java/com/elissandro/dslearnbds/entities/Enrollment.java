@@ -10,6 +10,8 @@ import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+
+import com.elissandro.dslearnbds.entities.pk.EnrollmentPK;
 @Entity
 @Table(name = "tb_enrollment")
 public class Enrollment implements Serializable {
